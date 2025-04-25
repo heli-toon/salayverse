@@ -1,13 +1,61 @@
-Salayverse [Name]Iwanna use showcase apps&sponsor apps as appstore
-Static webapp w/ reactts,bootstrapicons&tailwind Inspir:Playstore
-Json info on each app
-Info like:name,icon,descrip,screnshotlinks,availableplatforms(Win,Mac,Linux,AndroidTV,Android,iOS,BrowserExt,Webapp,Script,SourceCode,Chromebk) w/ respective downloadlink&size,status:Beta?,testing?,category: productivity,action,Author
-searchbar search item
-3pages
-Home:Random suggestion|Games,Apps(should be bottom navbar on mobile)|Platform filter chips underneath (like playstore),Recomended apps W/ slider thumnail,recent apps,few sponsor apps
-Search:Show searchresults here like playstore
-AppInfo:This page will be exactly like the playstore Download button detect user OS&change link accordingly has dropdown for the rest Incase the user wanna download different oneIf test? is enabled,there'll be contact form to send email 
-UITheme:Space theme purple:primary&black:bg&white:fg microinteract No extra libri unless for the sliders
+Get Brand Logo
+
+_Apps to be added_
+Games: Ballance, Balls Blaster 2, 
+Apps: LBSHS LMS, PDF-OPS, Mape, 
+Sponsored: Purchet, Wink,
+
+A Popup to alert user that an app could have errors in beta.
 
 
-Prepare to be PWA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a Progressive Web App (PWA) by implementing the following:
+
+1. Create a manifest.json file in the public directory with complete PWA configurations including:
+- App name and short name
+- Icons in multiple sizes (192x192 and 512x512 at minimum)
+- Theme colors and background colors
+- Display mode (standalone)
+- Start URL and scope
+- Orientation preferences
+
+2. Add service worker (sw.js) to enable offline functionality by:
+- Caching essential assets and API responses
+- Implementing appropriate caching strategies
+- Handling offline fallbacks
+
+3. Update the HTML head to include:
+- Manifest link
+- Meta theme-color
+- Appropriate viewport settings
+- Required PWA meta tags
+- Apple-specific meta tags for iOS support
+
+4. Test the PWA implementation by verifying:
+- Lighthouse PWA score
+- Installation capability
+- Offline functionality
+- App-like behavior on mobile devices
+
+Please provide the complete implementation following PWA best practices and modern standards. 

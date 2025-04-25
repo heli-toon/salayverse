@@ -53,11 +53,11 @@ const AppDetailPage: React.FC = () => {
       {/* App header */}
       <div className="flex flex-col md:flex-row gap-6 mb-8">
         <div className="flex-shrink-0">
-          <div className="bg-gradient-to-br from-purple-800/30 to-purple-600/30 p-1 rounded-2xl animate-pulse-glow">
+          <div className="bg-gradient-to-br from-purple-800/30 to-purple-600/30 p-1 rounded-2xl animate-pulse-glow flex items-center">
             <img
               src={app.icon}
               alt={`${app.name} icon`}
-              className="w-32 h-32 rounded-xl object-cover"
+              className="w-32 h-32 rounded-xl object-cover self-center"
             />
           </div>
         </div>

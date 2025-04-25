@@ -73,7 +73,7 @@ const AppCard: React.FC<AppCardProps> = ({ app, sponsored = false, size = 'mediu
         )}
 
         {app.status && (
-          <div className="mt-2 px-2 py-0.5 bg-blue-600/30 rounded-full">
+          <div className="mt-2 px-2 py-0.5 bg-blue-600/30 rounded-full flex items-center">
             <span className="text-[10px] text-blue-300">{app.status}</span>
           </div>
         )}

@@ -1,11 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
   color-scheme: dark;
 }
-
 body {
   @apply bg-[#0F0F1A] text-gray-200;
   font-family: 'Inter', 'system-ui', sans-serif;
@@ -14,27 +12,20 @@ body {
     radial-gradient(circle at 85% 60%, rgba(79, 70, 229, 0.05) 0%, transparent 55%);
   background-attachment: fixed;
 }
-
 /* Custom scrollbar for Webkit browsers */
-.scrollbar-hide::-webkit-scrollbar {
+::-webkit-scrollbar {
   height: 6px;
   background: transparent;
-}
-
-.scrollbar-hide::-webkit-scrollbar-thumb {
-  background: rgba(124, 58, 237, 0.3);
-  border-radius: 6px;
-}
-
-.scrollbar-hide::-webkit-scrollbar-thumb:hover {
-  background: rgba(124, 58, 237, 0.5);
-}
-
-.scrollbar-hide {
   scrollbar-width: thin;
   scrollbar-color: rgba(124, 58, 237, 0.3) transparent;
 }
-
+::-webkit-scrollbar-thumb {
+  background: rgba(124, 58, 237, 0.3);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 58, 237, 0.5);
+}
 /* Micro interactions */
 @keyframes pulse-glow {
   0% {
@@ -47,11 +38,9 @@ body {
     box-shadow: 0 0 5px 0 rgba(124, 58, 237, 0.2);
   }
 }
-
 .animate-pulse-glow {
   animation: pulse-glow 3s infinite ease-in-out;
 }
-
 /* Line clamp utilities */
 .line-clamp-1 {
   display: -webkit-box;
@@ -59,14 +48,12 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 .line-clamp-3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;
